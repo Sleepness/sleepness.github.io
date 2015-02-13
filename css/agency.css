@@ -685,11 +685,30 @@ ul.social-buttons li a {
     transition: all .3s;
 }
 
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
-    background-color: #fed136;
+ul.social-buttons li a.facebook_btn:hover,
+ul.social-buttons li a.facebook_btn:focus,
+ul.social-buttons li a.facebook_btn:active{
+    background-color: darkslateblue;
 }
+
+ul.social-buttons li a.github_btn:hover,
+ul.social-buttons li a.github_btn:focus,
+ul.social-buttons li a.github_btn:active{
+    background-color: #444444;
+}
+
+ul.social-buttons li a.twitter_btn:hover,
+ul.social-buttons li a.twitter_btn:focus,
+ul.social-buttons li a.twitter_btn:active{
+    background-color: #4875B4;
+}
+
+ul.social-buttons li a.google_btn:hover,
+ul.social-buttons li a.google_btn:focus,
+ul.social-buttons li a.google_btn:active{
+    background-color: lightcoral;
+}
+
 
 .btn:focus,
 .btn:active,
