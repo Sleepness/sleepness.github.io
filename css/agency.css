@@ -708,7 +708,7 @@ ul.social-buttons li a.twitter_btn:active{
 ul.social-buttons li a.google_btn:hover,
 ul.social-buttons li a.google_btn:focus,
 ul.social-buttons li a.google_btn:active{
-    background-color: lightcoral;
+    background-color: indianred;
 }
 
 .btn:focus,
