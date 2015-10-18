@@ -236,15 +236,11 @@ fieldset[disabled] .btn-xl.active {
         padding: 25px 0;
         border: 0;
         background-color: transparent;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
         transition: padding .3s;
     }
 
     .navbar-default .navbar-brand {
         font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
         transition: all .3s;
     }
 
@@ -268,11 +264,8 @@ header {
     background-attachment: scroll;
     background-image: url(../img/header.jpg);
     background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+    background-repeat: no-repeat;
     background-size: cover;
-    -o-background-size: cover;
 }
 
 header .intro-text {
@@ -364,8 +357,6 @@ section h3.section-subheading {
     height: 100%;
     opacity: 0;
     background: rgba(254, 209, 54, .9);
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
     transition: all ease .5s;
 }
 
@@ -653,7 +644,6 @@ footer {
 }
 
 footer span.copyright {
-    text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 40px;
@@ -661,7 +651,6 @@ footer span.copyright {
 
 footer ul.quicklinks {
     margin-bottom: 0;
-    text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 40px;
@@ -681,32 +670,30 @@ ul.social-buttons li a {
     outline: 0;
     color: #fff;
     background-color: #222;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
     transition: all .3s;
 }
 
 ul.social-buttons li a.facebook_btn:hover,
 ul.social-buttons li a.facebook_btn:focus,
-ul.social-buttons li a.facebook_btn:active{
+ul.social-buttons li a.facebook_btn:active {
     background-color: darkslateblue;
 }
 
 ul.social-buttons li a.github_btn:hover,
 ul.social-buttons li a.github_btn:focus,
-ul.social-buttons li a.github_btn:active{
+ul.social-buttons li a.github_btn:active {
     background-color: #444444;
 }
 
 ul.social-buttons li a.twitter_btn:hover,
 ul.social-buttons li a.twitter_btn:focus,
-ul.social-buttons li a.twitter_btn:active{
+ul.social-buttons li a.twitter_btn:active {
     background-color: #4875B4;
 }
 
 ul.social-buttons li a.google_btn:hover,
 ul.social-buttons li a.google_btn:focus,
-ul.social-buttons li a.google_btn:active{
+ul.social-buttons li a.google_btn:active {
     background-color: indianred;
 }
 
@@ -724,7 +711,6 @@ ul.social-buttons li a.google_btn:active{
     border-radius: 0;
     text-align: center;
     background-clip: border-box;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -773,8 +759,6 @@ ul.social-buttons li a.google_btn:active{
     height: 75px;
     margin-left: 35px;
     background-color: #222;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
@@ -783,8 +767,6 @@ ul.social-buttons li a.google_btn:active{
     width: 1px;
     height: 75px;
     background-color: #222;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
@@ -809,8 +791,4 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0;
-}
-
-body {
-    webkit-tap-highlight-color: #fed136;
 }
